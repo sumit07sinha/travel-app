@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Gochi+Hand|Open+Sans&display=swap);
+$primary-color: #fe484a;
+$secondary-color: #87dc8d;
+$tertiary-color: #79aaf2;
+$color-black: #000;
+$color-dark: #2f3d49;
+$color-light: #fff;
+
+$font-headings: "Gochi Hand", cursive;
+$font-text: "Open Sans", sans-serif;
+$font-h1: 2vw;
+$font-h2: 4vw;
+$font-h3: 2rem;
+$text: 1.2rem;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 2;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+}
