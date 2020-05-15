@@ -1,17 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Gochi+Hand|Open+Sans&display=swap);
-$primary-color: #fe484a;
-$secondary-color: #87dc8d;
-$tertiary-color: #79aaf2;
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,400;1,600&family=Pacifico&display=swap);
+$primary-color: rgb(216,79,87);
+$secondary-color: rgb(232,236,239);
+$tertiary-color: #3e83eb;
 $color-black: #000;
 $color-dark: #2f3d49;
-$color-light: #fff;
+$color-light: rgb(228, 227, 227);
 
-$font-headings: "Gochi Hand", cursive;
-$font-text: "Open Sans", sans-serif;
-$font-h1: 2vw;
-$font-h2: 4vw;
-$font-h3: 2rem;
-$text: 1.2rem;
+$font-headings: 'Crimson Text', serif;
+$font-text: 'Pacifico', cursive;
+$font-h1: 3vw;
+$font-h2: 3vw;
+$font-h3: 1.5rem;
+$text: 1rem;
 body {
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  flex: 2;
+  flex: 1;
 }
 
 section {

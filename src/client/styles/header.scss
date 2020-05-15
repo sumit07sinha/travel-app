@@ -1,15 +1,15 @@
 .header {
-  background-color:  #fff;
-  box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.1);
+  background-color:  white;
+  box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.1);
   min-height: 4rem;
   max-height: 5rem;
   position: fixed;
-  width: 100vw;
-  z-index: 5;
+  width: 120vw;
+  z-index: 10;
 
   @media only screen and (min-width: 350px) {
-    min-height: 6rem;
-    max-height: 7rem;
+    min-height: 4rem;
+    max-height: 6rem;
   }
 }
 
@@ -18,15 +18,11 @@
   display: flex;
   height: 100%;
   justify-content: space-around;
-  padding: 0.5rem 1.5rem;
+  padding: 0.6rem 1.6rem;
 
   @media only screen and (min-width: 350px) {
     justify-content: space-between;
     padding: 1rem 1.5rem;
-  }
-
-  @media only screen and (min-width: 576px) {
-    padding: 1rem 3rem;
   }
 
   @media only screen and (min-width: 992px) {
@@ -73,10 +69,6 @@
       margin-right: auto;
     }
 
-    @media only screen and (min-width: 768px) {
-      font-size: 6vw;
-    }
-
     @media only screen and (min-width: 992px) {
       font-size: 5vw;
     }
@@ -102,7 +94,7 @@
         padding-left: 1rem;
       }
 
-      @media only screen and (min-width: 576px) {
+      @media only screen and (min-width: 992px) {
         padding-left: 1.5rem;
       }
 
@@ -123,11 +115,6 @@
         @media only screen and (min-width: 576px) {
           font-size: 4vw;
         }
-
-        @media only screen and (min-width: 768px) {
-          font-size: 3vw;
-        }
-
         @media only screen and (min-width: 992px) {
           font-size: 2vw;
         }
@@ -138,7 +125,7 @@
       }
 
       a:hover {
-        border-bottom: 0.1rem $primary-color solid;
+        border-bottom: 0.2rem $primary-color solid;
       }
     }
   }
