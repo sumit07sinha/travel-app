@@ -21,3 +21,8 @@ Steps to be followed:
 - Install node packages- npm i
 - npm run build-prod
 - npm run build-dev
+## Travel Plan Website 
+### Home Page
+![travel plan home page](https://user-images.githubusercontent.com/51187812/82110690-e9e3e200-975d-11ea-8b01-f0a512828d8e.jpg)
+## Result Page
+![travel details](https://user-images.githubusercontent.com/51187812/82110735-33ccc800-975e-11ea-9b88-47805916b71b.jpeg)
